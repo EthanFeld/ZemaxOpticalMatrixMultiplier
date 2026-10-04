@@ -1,0 +1,5 @@
+surface,comment,type,thickness_after_surface_mm,semi_diameter_mm,parameter_1
+0,OBJECT,Standard object,0,,
+1,INPUT FIELD,Standard/dummy,100,2,
+2,FOURIER LENS,Paraxial,100,5,100 mm focal length
+3,OUTPUT / DFT PLANE,Image,,2,

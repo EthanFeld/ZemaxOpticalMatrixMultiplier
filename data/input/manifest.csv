@@ -1,0 +1,6 @@
+input_file,input_vector,expected_output_file
+basis_0.zbf,"[1,0,0,0]",basis_0_out.zbf
+basis_1.zbf,"[0,1,0,0]",basis_1_out.zbf
+basis_2.zbf,"[0,0,1,0]",basis_2_out.zbf
+basis_3.zbf,"[0,0,0,1]",basis_3_out.zbf
+demo.zbf,"[1,0.6,-0.4,0.8]",demo_out.zbf

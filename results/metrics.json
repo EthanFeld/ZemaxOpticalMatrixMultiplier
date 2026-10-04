@@ -1,0 +1,47 @@
+{
+  "fourier_sign": 1,
+  "global_complex_scale_real": 0.08941324001638296,
+  "global_complex_scale_imag": 4.823887058032217e-13,
+  "normalized_frobenius_error": 0.04605449300828538,
+  "max_element_error": 0.04144263420671715,
+  "mean_element_error": 0.018426556354132106,
+  "magnitude_rmse": 0.0005685493871849617,
+  "phase_rmse_deg": 2.6367187507789662,
+  "alternative_sign": -1,
+  "alternative_sign_error": 0.9996737817892356,
+  "best_matching_sign_diagnostic": 1,
+  "demo_normalized_l2_error": 0.007846526144731348,
+  "demo_unaligned_complex_error": 1.1759997918777867,
+  "demo_global_phase_alignment_deg": -72.31448989171744,
+  "demo_peak_irradiance_compensation": 1.0,
+  "gaussian_envelope_by_output": [
+    0.9802124462611318,
+    0.9977818028532472,
+    0.9977818028532472,
+    0.9802124462611318
+  ],
+  "expected_output_positions_mm": [
+    -0.09492,
+    -0.03164,
+    0.03164,
+    0.09492
+  ],
+  "sampling": {
+    "nx": 1024,
+    "ny": 1024,
+    "dx_mm": 0.015449218750000002,
+    "dy_mm": 0.015449218750000002
+  },
+  "input_sampling": {
+    "nx": 1024,
+    "ny": 1024,
+    "dx_mm": 0.004,
+    "dy_mm": 0.004
+  },
+  "demo_output_sampling": {
+    "nx": 1024,
+    "ny": 1024,
+    "dx_mm": 0.0019823534602125535,
+    "dy_mm": 0.001984668735527465
+  }
+}

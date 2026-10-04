@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Generated optical beams and analysis outputs
+data/input/*.zbf
+data/output/*.zbf
+results/matrices/*.npy
+results/figures/*.png
+
+# OpticStudio session and backup files
+zemax/*.ZDA
+zemax/*.SES
+zemax/*.bak

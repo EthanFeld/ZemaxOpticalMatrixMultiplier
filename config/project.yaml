@@ -1,0 +1,51 @@
+project:
+  name: "4x4 Coherent Optical Matrix Multiplier"
+
+optics:
+  wavelength_mm: 0.0006328
+  focal_length_mm: 100.0
+
+input_channels:
+  count: 4
+  pitch_mm: 0.250
+  centers_x_mm:
+    - -0.375
+    - -0.125
+    - 0.125
+    - 0.375
+  centers_y_mm:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  gaussian_radius_mm: 0.030
+
+sampling:
+  nx: 1024
+  ny: 1024
+  width_x_mm: 4.096
+  width_y_mm: 4.096
+
+matrix:
+  size: 4
+  fourier_sign: 1
+
+demo_vector:
+  real:
+    - 1.0
+    - 0.6
+    - -0.4
+    - 0.8
+  imag:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+
+analysis:
+  extraction_half_width_um: 5.0
+  normalize_global_complex_scale: true
+  gaussian_envelope_correction: true
+
+zemax:
+  pop_directory: null
